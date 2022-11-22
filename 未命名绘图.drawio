@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T04:54:54.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YCr1-hBw-gwAAeV70V5F" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T04:55:50.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zbDMnEengDKM3xGbf_4m" version="20.5.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="4772" dy="2413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5208" dy="3582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,6 +147,12 @@
         </mxCell>
         <mxCell id="2LbZV6Y8oddciqM4bxeV-53" value="技术选型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
           <mxGeometry x="-1960" y="-1160" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LbZV6Y8oddciqM4bxeV-54" value="产品架构方式A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="-1180" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LbZV6Y8oddciqM4bxeV-55" value="产品架构方式B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="-300" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
