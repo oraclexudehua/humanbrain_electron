@@ -11,7 +11,6 @@ import {
 } from 'react-router-dom';
 import routes from '@/routes';
 import App from '@/App';
-import '@/global';
 // import './samples/node-api'
 import 'styles/index.css';
 import {store} from './store'

@@ -1,0 +1,17 @@
+.menus {
+	margin: 5px 0px;
+	padding: 5px 0px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.menus_selected{
+	background: red;
+	border-radius: 5px;
+}
+.menus-label{
+	padding: 0px 20px;
+}
+.menus_selected .menus-label{
+	border-left: 3px solid blue;
+	padding: 0px 20px 0px 17px;
+}

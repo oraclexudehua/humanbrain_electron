@@ -7,9 +7,57 @@ const Notfound = lazy(() => import('@/routes/404'));
 const Detail = lazy(() => import('@/routes/detail'));
 
 const children: any = [
+  // {
+  //   path: '/dataManager',
+  //   index: true,
+  //   element: (
+  //     <Suspense>
+  //       <Detail />
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: '/researchProjects',
+  //   element: (
+  //     <Suspense>
+  //       <Detail />
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: '/analysisResults/groupAnalysis',
+  //   element: (
+  //     <Suspense>
+  //       <Detail />
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: '/analysisResults/singleSubject',
+  //   element: (
+  //     <Suspense>
+  //       <Detail />
+  //     </Suspense>
+  //   ),
+  // },
   {
-    path: '/info',
-    index: true,
+    path: '/transferList/uploading',
+    element: (
+      <Suspense>
+        <Detail />
+      </Suspense>
+    ),
+  },
+  {
+    path: '/transferList/downloading',
+    element: (
+      <Suspense>
+        <Detail />
+      </Suspense>
+    ),
+  },
+  {
+    path: '/transferList/transferComplete',
     element: (
       <Suspense>
         <Detail />
@@ -20,7 +68,7 @@ const children: any = [
 export const routes: Array<RouteObject> = [
   {
     // index: true,
-    path: "/",
+    path: '/',
     element: (
       <Suspense>
         <BasicLayout />
@@ -29,13 +77,12 @@ export const routes: Array<RouteObject> = [
     children: children,
   },
   {
-    path: "/login",
+    path: '/login',
     element: (
       <Suspense>
         <LoginLayout />
       </Suspense>
     ),
-
   },
   {
     path: '*',
